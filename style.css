@@ -1,0 +1,22 @@
+.header {
+    /* TODO - find a good font for name */
+    font: lucida;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.background
+{
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/abstract-background.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    overflow: hidden;
+    size: inherit;
+    position: fixed;
+    z-index: -1;
+} 
+
