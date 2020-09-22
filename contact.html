@@ -3,11 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Eric Osowski</title>
 </head>
-<body>
 
-    
-    
+<body>
+    <div class="content">
+        <background class="background"></background>
+        <!-- Nav bar at top with L justified header and R justified links -->
+        <nav class="navbar navbar-dark navbar-expand-md bg-dark justify-content-center">
+            <header class="navbar-brand d-flex w-50 mr-auto">Eric Osowski</header>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container card">
+            <div class="content-padding">
+                <div class="row heading-underline">
+                <h2 id="about">Contact Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col short-col">
+                    <p>
+                        Name
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col contact-content-padding">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col short-col">
+                    <p>
+                        Email
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col contact-content-padding">
+                    <input type="text" class="form-control" placeholder="Email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col short-col">
+                    <label for="comment">Message</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col contact-content-padding">
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3" id="comment" placeholder="Message"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-secondary">Submit</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+<footer class="footer">Copywrite...right?</footer>
 </body>
 </html>

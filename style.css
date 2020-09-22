@@ -78,23 +78,21 @@ body {
     }
   }
 
-  #about {
-    text-align:left;
-    font-weight: 500;
-    text-indent: 1vw;
-    padding-top: 5px;
-  }
 
  img.wrap {
-      float: left;
-      max-width: 100%;
-      min-width: 15%;
+    float: left;
+    max-width: 40%;
+    min-width: 25%;
+    border-radius: 10px;
+    margin-right: 14px;
  }
 
   #photoContainer {
+    margin-right: 14px;
+    margin-bottom:14px;
     float: left;
     max-width: 30%;
-    min-width: 15%;
+    min-width: 5%;
     margin-bottom: 5px;
     max-height: max-content;
   }
@@ -103,26 +101,56 @@ body {
     position: bottom;
     bottom: 0px;
     width: 100%;
-    height: 100%; /* Set the fixed height of the footer here */
-    line-height: 60px; /* Vertically center the text there */
+    height: 60px; 
+    line-height: 60px; 
     background-color: darkgrey;
     border-top-style: solid;
     border-top-color: grey;
     border-width: 7px;
+    flex-shrink: 0;
+    text-align: center;
+    color: grey;
   }
 
   .container {
     width: auto;
-    max-width: 680px;
     padding: 0 15px;
+    max-width: 75%;
   }
   
-  #aboutContainer {
-      border-bottom-style: solid;
-      border-bottom-color: grey;
-      border-bottom-width: 5px;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 8px;
+  .content-padding{
+    padding: 15px;
+  }
 
+  html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex: 1 0 auto;
+  }
+
+  .portfolio-item {
+    width: 350px;
+    height: 350px;
+    background-color: darkgrey;
+    margin-bottom: 30px;
+    display: block;
+  }
+
+  .heading-underline {
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 5px;
+  }
+
+  .short-col {
+      max-height: 30px;
+  }
+
+  .contact-content-padding {
+      padding: 0px 15px 15px 15px;
   }
