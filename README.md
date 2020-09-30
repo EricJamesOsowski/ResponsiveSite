@@ -1,5 +1,5 @@
 # Basic HTML and CSS website
-https://ericjamesosowski.github.io/ResponsiveSite/
+https://ericjamesosowski.github.io/eric-osowski-practice-bio/
 
 A simple HTML and CSS website that is responsive to device and screen size. It has a contact page, about me page, and portfolio page.
 
