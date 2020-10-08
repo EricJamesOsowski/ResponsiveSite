@@ -11,11 +11,16 @@
 
 }
 
+p {
+  text-align: center;
+  padding: 0 20px;
+}
+
 .background
 {
     height: 100%;
     width: 100%;
-    background-image: url("assets/abstract-background.jpg");
+    background-image: url("../assets/abstract-background.jpg");
     background-size: cover;
     overflow: hidden;
     size: 100vw;
@@ -28,7 +33,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin-bottom: 40px;
   }
 
   html {
@@ -52,6 +57,9 @@ body {
     margin: 20px 80px 20px 30px;
     background-color: lightgray;
     border: 0px, 0px, 10px, 0px;
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
   }
 
   .about-section {
@@ -98,18 +106,12 @@ body {
   }
 
   .footer {
-    position: bottom;
+    position: bottom !important;
     bottom: 0px;
     width: 100%;
-    height: 60px; 
-    line-height: 60px; 
+    height: 40px;
     background-color: darkgrey;
-    border-top-style: solid;
-    border-top-color: grey;
-    border-width: 7px;
     flex-shrink: 0;
-    text-align: center;
-    color: grey;
   }
 
   .container {
@@ -125,20 +127,46 @@ body {
   html, body {
     height: 100%;
   }
+
+  html{
+    position: relative;
+  }
+
   body {
     display: flex;
     flex-direction: column;
   }
   .content {
     flex: 1 0 auto;
+    position: inherit;
   }
 
   .portfolio-item {
     width: 350px;
     height: 350px;
-    background-color: darkgrey;
+    background-color: rgb(231, 231, 231);
     margin-bottom: 30px;
+    border-radius: 10px;
     display: block;
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
+  }
+
+  .portfolio-picture {
+    max-height: 325px;
+    max-width: 325px;
+    display:block;
+    margin:auto;
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
+  }
+
+  .portfolio-picture:active {
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+         box-shadow: inset 0px 0px 5px #c1c1c1;
   }
 
   .heading-underline {
@@ -154,3 +182,27 @@ body {
   .contact-content-padding {
       padding: 0px 15px 15px 15px;
   }
+
+  .footer-text {
+     margin: auto;
+  }
+
+ a {
+    color: black;
+  }
+
+  #footer-row {
+    height: 40px;
+  }
+
+footer {
+  position: fixed;
+}
+
+.github-link {
+  text-align: center;
+}
+
+a p {
+  margin-bottom: -15px;
+}
