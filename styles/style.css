@@ -3,12 +3,25 @@
     width: 100%;
 }
 
+.miami-nights{
+  margin-top: -15px;
+  color: #0dffdd;
+  font-size: larger;
+}
+
 .header {
     /* TODO - find a good font for name */
     font: lucida;
     font-weight: bolder;
     color: white;
 
+}
+
+.saxophone-solo-in-an-empty-street-at-night-under-a-full-moon{
+  color: #0dffdd;
+  font-size: larger;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 p {
@@ -20,7 +33,7 @@ p {
 {
     height: 100%;
     width: 100%;
-    background-image: url("../assets/babyEric.JPG");
+    background-image: url("../assets/vaporwave-background.jpg");
     background-size: cover;
     overflow: hidden;
     size: 100vw;
@@ -115,6 +128,7 @@ body {
     padding: 0 16px 0 16px;
     margin-top: 27px;
     margin-bottom: 67px;
+    background-color: rgba(20, 20, 20, 0.81);
   }
   
   .content-padding{
@@ -139,10 +153,11 @@ body {
   }
 
   .portfolio-item {
-    min-width: 303px;
+    min-width: 305px;
     height: 350px;
-    background-color: rgb(231, 231, 231);
+    background-color: #505050;
     margin-bottom: 30px;
+    color: #ff83ff;
     border-radius: 10px;
     display: block;
     -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
@@ -168,7 +183,7 @@ body {
 
   .heading-underline {
     border-bottom-style: solid;
-    border-bottom-color: grey;
+    border-bottom-color: rgb(216, 0, 216, .87);
     border-bottom-width: 5px;
   }
 
@@ -178,6 +193,10 @@ body {
 
   .contact-content-padding {
       padding: 0px 15px 15px 15px;
+  }
+
+  #about {
+    color: #ff83ff;
   }
 
   .footer-text {
