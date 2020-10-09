@@ -54,7 +54,6 @@ body {
 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 20px 80px 20px 30px;
     background-color: lightgray;
     border: 0px, 0px, 10px, 0px;
     -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
@@ -67,10 +66,6 @@ body {
     text-align: left;
     background-color: #474e5d;
     color: white;
-  }
-
-  .container {
-    padding: 0 16px 0 16px;
   }
 
   .container::after, .row::after {
@@ -89,10 +84,11 @@ body {
 
  img.wrap {
     float: left;
-    max-width: 40%;
+    max-width: 35%;
     min-width: 25%;
     border-radius: 10px;
     margin-right: 14px;
+    margin-bottom: 10px
  }
 
   #photoContainer {
@@ -115,9 +111,8 @@ body {
   }
 
   .container {
-    width: auto;
     padding: 0 15px;
-    max-width: 75%;
+    padding: 0 16px 0 16px;
   }
   
   .content-padding{
@@ -142,7 +137,7 @@ body {
   }
 
   .portfolio-item {
-    width: 350px;
+    min-width: 303px;
     height: 350px;
     background-color: rgb(231, 231, 231);
     margin-bottom: 30px;
@@ -154,13 +149,13 @@ body {
   }
 
   .portfolio-picture {
-    max-height: 325px;
     max-width: 325px;
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
     -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
     -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
     box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.61);
+    width: 100%;
   }
 
   .portfolio-picture:active {
@@ -232,4 +227,8 @@ a p {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+.left-text {
+  text-align: left;
 }
