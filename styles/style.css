@@ -20,7 +20,7 @@ p {
 {
     height: 100%;
     width: 100%;
-    background-image: url("../assets/abstract-background.jpg");
+    background-image: url("../assets/babyEric.JPG");
     background-size: cover;
     overflow: hidden;
     size: 100vw;
@@ -113,6 +113,8 @@ body {
   .container {
     padding: 0 15px;
     padding: 0 16px 0 16px;
+    margin-top: 27px;
+    margin-bottom: 67px;
   }
   
   .content-padding{
